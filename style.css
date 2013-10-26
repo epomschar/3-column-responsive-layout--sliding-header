@@ -111,7 +111,7 @@ header > div, .footer {
 }
 
 header > div > div {
-    background: url('../images/header-bg.png') no-repeat right top;
+    background: url('images/header-bg.png') no-repeat right top;
     width: 100%;
     height: 150px;    
 }
