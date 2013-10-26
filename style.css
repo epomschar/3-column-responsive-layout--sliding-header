@@ -1,0 +1,143 @@
+/* Tahoma substitute */
+@import('http://fonts.googleapis.com/css?family=Signika:300,400,700');
+
+/* RESET */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section,  {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align:baseline;
+  background:transparent;
+} 
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { 
+    display:block;
+}
+
+.span1, .span2 {
+    float:left;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.col{
+  margin-left: 2%;
+}
+
+.col:first-child {
+  margin-left:0;
+}
+
+.span1{
+  width: 32%;
+  
+}
+.span2{
+  width: 100%;
+  margin-left: 0;
+}
+
+body{ 
+  font-size: 62.5%;
+  color: #252e35; 
+  font-family: 'Signika' sans-serif; 
+  font-weight: 300;
+  line-height: 1.5em;
+  background: #f6f6f6;  
+}
+
+h1{
+    font-size: 2.4em;
+    line-height: 2.4em;
+}
+
+h2{
+  font-size: 2.1em;
+  line-height: 2.1em;
+}
+
+p{
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin-bottom: 1.4em;
+}
+
+#container {
+  background: #666966;
+  margin: 0 auto;
+}
+
+header, .footer{
+  background: #ffc400;
+}
+
+header h1{
+  margin: 7px 0 0 0;
+}
+
+article {
+    background: #202821;
+    color: #fff;
+}
+
+#container{
+  padding-top: 20px;
+}
+
+.footer {
+
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px){
+  nav .span1{
+    width: 100%;
+    margin-left: 0
+  }
+
+  .span2 {
+    width: 100%;
+  }
+
+  #container {
+    width: 90%;
+    padding: 0 5% 0 5%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
+
+
+@media screen and (max-width: 320px) {
+}
+
+/* CLEARFIX */
+.cf {
+    clear: both;
+}
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
