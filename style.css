@@ -283,9 +283,6 @@ article {
 
 .ie8 header > div, .ie9 header > div {
     background-color: #ffc400;
-<<<<<<< HEAD
-}
-=======
 }
 
 /* Diagonal */
@@ -357,4 +354,4 @@ article {
 .test3 .title img {
     margin-left: 20px;
 }
->>>>>>> master
+
