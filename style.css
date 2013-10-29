@@ -284,3 +284,73 @@ article {
 .ie8 header > div, .ie9 header > div {
     background-color: #ffc400;
 }
+
+/* Diagonal */
+.test2 header > div > div, 
+.test3 header > div > div {
+    background-image: none;
+}
+
+.test2 header div,
+.test3 header div {
+    float: left;
+    width: 100%;
+}
+
+.test2 .header-right,
+.test3 .header-right {
+    float: right;
+    width: 30%;
+}
+
+.test2 .header-right img,
+.test3 .header-right img {
+    float: right;
+}
+
+.test2 .header-left {
+    float: left;
+    width: 70%;
+    background: linear-gradient(45deg, #FFC400 14%, #FFA400 79%, rgba(0, 0, 0, 0) 50%); 
+    position: relative;
+}
+
+.test2 header > div,
+.test3 header > div {
+    background: none;
+}
+
+@media screen and (max-width: 840px) {
+    .test2 .header-left {
+        background: linear-gradient(45deg, #FFC400 14%, #FFA400 75%, rgba(0, 0, 0, 0) 50%);    
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .test2 .header-left {
+        background: linear-gradient(45deg, #FFC400 14%, #FFA400 50%, rgba(0, 0, 0, 0) 50%);    
+    }
+}
+
+.test3 .title {
+    background-image: none;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #ffc400;
+    height: 0;
+    line-height: 190px;
+    display: inline-block;
+    position: absolute;
+    top: -35px;
+    left: -35px;
+    width: 500px;
+}
+
+.test3 .header-left {
+    float: left;
+    width: 70%; 
+    position: relative;
+}
+
+.test3 .title img {
+    margin-left: 20px;
+}
