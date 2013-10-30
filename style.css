@@ -281,8 +281,14 @@ article {
     clear: both;
 }
 
+
+/* IE */
 .ie8 header > div, .ie9 header > div {
     background-color: #ffc400;
+}
+
+.ie8 .footer {
+	height: auto;
 }
 
 /* Diagonal */
@@ -342,7 +348,7 @@ article {
     position: absolute;
     top: -35px;
     left: -35px;
-    width: 500px;
+    width: 74%;
 }
 
 .test3 .header-left {
@@ -355,3 +361,14 @@ article {
     margin-left: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .test3 .title {
+        width: 64%;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .test3 .title {
+        width: 54%;
+    } 
+}
